@@ -8,15 +8,8 @@ import "../../template/stylingNavbar.css";
 const Skill = () => {
   return (
     <>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#b200b2"
-          fillOpacity="1"
-          d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
-      <div className="bg2 py-5" style={{ fontFamily: "Nunito, sans-serif" }}>
-        <div className="container">
+      <div className="bg3 py-5" style={{ fontFamily: "Nunito, sans-serif" }}>
+        <div className="container py-5">
           <div className="row justify-content-center">
             <div className="col-md-12 text-center text-white">
               <h1>Skill</h1>
@@ -27,8 +20,11 @@ const Skill = () => {
             >
               <p>
                 <img src={react} style={{ width: "140px" }} />
-                <h5 className="mt-3 text-white text1 py-2 shadow" style={{  borderRadius : "30px" }} >
-                    ReactJs
+                <h5
+                  className="mt-3 text-white  py-2 shadow"
+                  style={{ borderRadius: "30px" }}
+                >
+                  ReactJs
                 </h5>
               </p>
             </div>
@@ -37,9 +33,15 @@ const Skill = () => {
               style={{ boxShadow: "2px 2px 5px black", borderRadius: "20px" }}
             >
               <p>
-                <img src={laravel} style={{ width: "140px" }} />
-                <h5 className="mt-3 text-white text1 py-2 shadow" style={{  borderRadius : "30px" }} >
-                    Laravel
+                <img
+                  src={laravel}
+                  style={{ width: "140px", borderRadius: "30px" }}
+                />
+                <h5
+                  className="mt-3 text-white  py-2 shadow"
+                  style={{ borderRadius: "30px" }}
+                >
+                  Laravel
                 </h5>
               </p>
             </div>
@@ -48,15 +50,22 @@ const Skill = () => {
               style={{ boxShadow: "2px 2px 5px black", borderRadius: "20px" }}
             >
               <p>
-                <img src={js} style={{ width: "140px" }} />
-                <h5 className="mt-3 text-white text1 py-2 shadow" style={{  borderRadius : "30px" }} >
-                    Javascript
+                <img
+                  src={js}
+                  style={{ width: "140px", borderRadius: "30px" }}
+                />
+                <h5
+                  className="mt-3 text-white  py-2 shadow"
+                  style={{ borderRadius: "30px" }}
+                >
+                  Javascript
                 </h5>
               </p>
             </div>
           </div>
         </div>
       </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#75ffc6" fill-opacity="1" d="M0,64L48,106.7C96,149,192,235,288,224C384,213,480,107,576,85.3C672,64,768,128,864,176C960,224,1056,256,1152,245.3C1248,235,1344,181,1392,154.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
     </>
   );
 };

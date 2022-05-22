@@ -1,9 +1,12 @@
 import React from "react";
+import "../../template/stylingNavbar.css"
 
 const About = () => {
   return (
     <>
-      <div className="container" style={{ fontFamily : "Nunito, sans-serif" }} >
+    <div className="bg2">
+
+      <div className="container py-5" style={{ fontFamily : "Nunito, sans-serif" }} >
         <div className="row">
           <div className="col-md-12 text-center py-5">
             <h1>About Me</h1>
@@ -23,6 +26,7 @@ const About = () => {
           </div>
         </div>
       </div>
+    </div>
     </>
   );
 };

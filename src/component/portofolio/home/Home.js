@@ -12,12 +12,12 @@ const Home = () => {
       <div className="bg1" style={{ fontFamily: "Nunito , sans-serif" }}>
         <div className="hero container py-5 px-3">
           <div className="row">
-            <div className="col-md-7 ms-auto">
+            {/* <div className="col-md-7 ms-auto">
               <Spline
                 style={{ borderRadius: "20px" }}
                 scene="https://prod.spline.design/TsdntGKKjh4DTyRn/scene.splinecode"
               />
-            </div>
+            </div> */}
             <div
               className="col-md-5 mt-2 ms-auto"
               style={{ borderRadius: "20px", boxShadow: "2px 2px 10px black" }}

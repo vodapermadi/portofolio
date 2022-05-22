@@ -11,7 +11,11 @@
 }
 
 .bg2 {
-    background-image: linear-gradient(180deg,#b200b2, #9375ff );
+    background-image: linear-gradient(180deg, white,#b200b2);
+}
+
+.bg3 {
+    background-image: linear-gradient(180deg,#b200b2, #75ffc6 );
 }
 
 .text1 {
