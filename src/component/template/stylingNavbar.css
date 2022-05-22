@@ -9,3 +9,15 @@
 .bg1 {
     background-image: linear-gradient(180deg, #c493fb, #b200b2);
 }
+
+.bg2 {
+    background-image: linear-gradient(180deg,#b200b2, #9375ff );
+}
+
+.text1 {
+    background-image: linear-gradient(180deg, #663cff, #b200b2 );
+}
+
+.testing{
+    color: #9375ff;
+}

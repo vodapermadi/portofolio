@@ -7,7 +7,7 @@ const NavbarComponent = () => {
     <>
       <Navbar className="bgnavbar" expand="lg" style={{ fontFamily : "Rubik, sans-serif" }}>
         <Container>
-          <Navbar.Brand href="/" style={{ fontSize : "25px"  }}>VodaPermadi</Navbar.Brand>
+          <Navbar.Brand href="/" style={{ fontSize : "25px"  }} className="text-white" >VodaPermadi</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -15,9 +15,9 @@ const NavbarComponent = () => {
               style={{ maxHeight: "100px" }}
               navbarScroll
             >
-              <Nav.Link href="/" style={{ fontSize : "18px" }} >Home</Nav.Link>
-              <Nav.Link href="/" style={{ fontSize : "18px" }}>About</Nav.Link>
-              <Nav.Link href="/" style={{ fontSize : "18px" }}>Contact</Nav.Link>
+              <Nav.Link href="/" className="text-white" style={{ fontSize : "18px" }} >Home</Nav.Link>
+              <Nav.Link href="/" className="text-white" style={{ fontSize : "18px" }}>About</Nav.Link>
+              <Nav.Link href="/" className="text-white" style={{ fontSize : "18px" }}>Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
