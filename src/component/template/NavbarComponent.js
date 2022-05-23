@@ -5,7 +5,7 @@ import "../template/stylingNavbar.css"
 const NavbarComponent = () => {
   return (
     <>
-      <Navbar className="bgnavbar" expand="lg" style={{ fontFamily : "Rubik, sans-serif" }}>
+      <Navbar className="bgnavbar fixed-top shadow" expand="lg" style={{ fontFamily : "Rubik, sans-serif" }}>
         <Container>
           <Navbar.Brand href="/" style={{ fontSize : "25px"  }} className="text-white" >VodaPermadi</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
@@ -15,9 +15,10 @@ const NavbarComponent = () => {
               style={{ maxHeight: "100px" }}
               navbarScroll
             >
-              <Nav.Link href="/" className="text-white" style={{ fontSize : "18px" }} >Home</Nav.Link>
-              <Nav.Link href="/" className="text-white" style={{ fontSize : "18px" }}>About</Nav.Link>
-              <Nav.Link href="/" className="text-white" style={{ fontSize : "18px" }}>Contact</Nav.Link>
+              <Nav.Link href="/portofolio/#home" className="text-white" style={{ fontSize : "18px" }} >Home</Nav.Link>
+              <Nav.Link href="/portofolio/#about" className="text-white" style={{ fontSize : "18px" }}>About</Nav.Link>
+              <Nav.Link href="/portofolio/#skill" className="text-white" style={{ fontSize : "18px" }}>Skill</Nav.Link>
+              <Nav.Link href="/portofolio/#project" className="text-white" style={{ fontSize : "18px" }}>Project</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
