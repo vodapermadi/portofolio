@@ -1,18 +1,16 @@
 {
   "files": {
-    "main.css": "/portofolio/static/css/main.809d92d4.css",
-    "main.js": "/portofolio/static/js/main.dbd061d9.js",
-    "static/js/301.70abfe94.chunk.js": "/portofolio/static/js/301.70abfe94.chunk.js",
+    "main.css": "/portofolio/static/css/main.62a1510b.css",
+    "main.js": "/portofolio/static/js/main.4bbd4281.js",
     "static/media/laravel.png": "/portofolio/static/media/laravel.337028ed957206585653.png",
     "static/media/react.png": "/portofolio/static/media/react.283bf42c605cfc49cf49.png",
     "static/media/js.png": "/portofolio/static/media/js.7b7d39612cf606d09047.png",
     "index.html": "/portofolio/index.html",
-    "main.809d92d4.css.map": "/portofolio/static/css/main.809d92d4.css.map",
-    "main.dbd061d9.js.map": "/portofolio/static/js/main.dbd061d9.js.map",
-    "301.70abfe94.chunk.js.map": "/portofolio/static/js/301.70abfe94.chunk.js.map"
+    "main.62a1510b.css.map": "/portofolio/static/css/main.62a1510b.css.map",
+    "main.4bbd4281.js.map": "/portofolio/static/js/main.4bbd4281.js.map"
   },
   "entrypoints": [
-    "static/css/main.809d92d4.css",
-    "static/js/main.dbd061d9.js"
+    "static/css/main.62a1510b.css",
+    "static/js/main.4bbd4281.js"
   ]
 }
