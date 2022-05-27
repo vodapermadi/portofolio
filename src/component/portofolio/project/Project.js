@@ -15,7 +15,7 @@ const Project = () => {
             </div>
             <div className="col-md-4 text-center">
               <div>
-                <h5 className="shadow py-5">
+                <h5 className="shadow py-5" style={{ borderRadius : "20px" }}>
                   <a
                     className="text-dark"
                     href="https://vodapermadi.github.io/weather-app/"
@@ -27,7 +27,7 @@ const Project = () => {
             </div>
             <div className="col-md-4 text-center">
               <div>
-                <h5 className="shadow py-5">
+                <h5 className="shadow py-5" style={{ borderRadius : "20px" }}>
                   <a
                     className="text-dark"
                     href="https://vodapermadi.github.io/abnormal"
@@ -39,7 +39,7 @@ const Project = () => {
             </div>
             <div className="col-md-4 text-center">
               <div>
-                <h5 className="shadow py-5">
+                <h5 className="shadow py-5" style={{ borderRadius : "20px" }}>
                   <a
                     className="text-dark"
                     href="https://github.com/vodapermadi/Machine-Learning/tree/master/regresi-linier-sederhana"
@@ -51,7 +51,7 @@ const Project = () => {
             </div>
             <div className="col-md-4 text-center">
               <div>
-                <h5 className="shadow py-5">
+                <h5 className="shadow py-5" style={{ borderRadius : "20px" }}>
                   <a
                     className="text-dark"
                     href="https://github.com/vodapermadi/Machine-Learning/tree/master/regresi-linier-ganda"

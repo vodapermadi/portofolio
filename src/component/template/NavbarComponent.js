@@ -11,7 +11,7 @@ const NavbarComponent = () => {
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
-              className="mx-auto py-2"
+              className="ms-auto py-2"
               style={{ maxHeight: "100px" }}
               navbarScroll
             >

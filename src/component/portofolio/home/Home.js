@@ -6,8 +6,13 @@ import About from "../about/About";
 import Skill from "../skill/Skill";
 import Project from "../project/Project";
 import Contact from "../contact/Contact";
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 const Home = () => {
+
+  AOS.init()
+
   return (
     <>
       <NavbarComponent />
@@ -23,8 +28,10 @@ const Home = () => {
             <div
               className="col-md-12 mt-2 ms-auto"
               style={{ borderRadius: "20px", boxShadow: "2px 2px 10px black" }}
+              data-aos={"zoom-in"}
+              data-aos-duration={"800"}
             >
-              <h2 className="text-center mx-auto text-white py-5 px-2">
+              <h2 className="text-center mx-auto text-white py-5 px-2" data-aos={"fade-up"} data-aos-duration={"1200"}>
                 Hellooo..!! <br /> My name is Philipus Voda Permadi, <br /> but
                 they call me Voda..
               </h2>
